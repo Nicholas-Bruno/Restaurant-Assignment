@@ -1,0 +1,222 @@
+<!--DOCTYPE html-->
+<html>
+<head>
+	<title>Luigi's Pizzeria</title>
+	<!--BootStrap Styling -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+	crossorigin="anonymous">
+	<!--BootStrap Home Icon Script-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<!--BootStrap Meta-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="luigiStyle.css" rel="stylesheet" type="text/css" /> <!--Styling-->
+	<script type="text/javascript" src="luigiScript.js">  <!--JavaScript-->
+	</script>
+</head>
+<body>
+	<header>
+	<h1>Luigi's Pizzeria</h1>
+		<h2 style="font-size:160%">New Restaurant Location!</h2>
+		<p>We are excited to announce that we are finally expanding to Rainbow Road! 
+		Drive on by to check out our colorful new location.</p>
+	</header>
+		<!--JavaScript Tester-->
+		<noscript>
+			  <h2>Javascript is disabled in your web browser.</h2> 
+			  <h2>The site is best viewed with JavaScript enabled!</h2>
+		</noscript>
+	<div>
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+			We're opening a new location!
+			</div>
+			<div class="carousel-item">
+			We're rolling out our season menu, with special options for this season.
+			</div>
+			<div class="carousel-item">
+			The Drink of the Month is SG Special Brew.
+			</div>
+		  </div> 
+		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+	<div class="container">
+		<div class="tab">
+		  <button class="tablinks active" onclick="openTab(event, 'Luigis')" id="luigiButton">
+		  <span class="glyphicon glyphicon-home"></span> <!--Home Icon-->
+		  </button>
+		  <button class="tablinks" onclick="openTab(event, 'Menu')">Menu</button>
+		  <button class="tablinks" onclick="openTab(event, 'Contact')">Contact Us</button>
+	  </div>
+	</div>
+	<div class="clear-float">
+	</div>
+	<!-- Tab content -->
+	<div id="Luigis" class="tabcontent active">
+	  <h3>Luigi's</h3>
+	  <div style="text-align:center">
+	  <p><img src="PizzaPic.jpg" alt="Photo of a pepperoni pizza">
+	  </div>
+		<div class="container">
+		<article>
+		<caption>Restaurant Description</caption>
+		<div class="colspan">Luigi's Pizzeria is a long running family restaurant with a taste for fantastic pizza.
+		Established in 1985, our recipe for the perfect sauce and dough have set us apart from every
+		other pizza spot. We are proud to be serving the people of the Mushroom Kingdom the best 
+		pizza around for decades. Voted #1 for best pepperoni pizza by Toad Times magazine
+		for 10 years and running, we have been at the top of pizza making.</div>
+		</article>
+		</div></p>
+	</div>
+
+  <div id="Menu" class="tabcontent">
+	<h3>Menu</h3>
+	<div class="container">
+			<div class="row">
+				<div class="col">Cheese Pizza</div>
+				<div class="col">Pepperoni Pizza</div>
+				<div class="col">Veggie Pizza</div>
+			</div>
+			<div class="row">
+				<div class="col">A Classic Slice of Cheese!</div>
+				<div class="col">Most Popular Item!</div>
+				<div class="col">Comes with mushrooms and onions</div>
+			</div>
+			<div class="row">
+				<div class="col">Our three cheese blend mixes things up for a great combination of creamy and sharp</div>
+				<div class="col">Our famous pepperoni pizza, with the perfect spicy pepperoni to give it that extra bite</div>
+				<div class="col">Another crowd favorite. Our locally sourced vegetables will have you wanting more!</div>
+			</div>
+			<div class="row">
+				<div class="col">$5.00</div>
+				<div class="col">$6.25</div>
+				<div class="col">$5.75</div>
+			</div>
+			<br />
+			<div class="row">
+				<div class="col">Italian Sub</div>
+				<div class="col">Supreme Pizza</div>
+				<div class="col">Gelato</div>
+			</div>
+			<div class="row">
+				<div class="col">A fully stacked sandwich!</div>
+				<div class="col">For your inner superstar!</div>
+				<div class="col">A classic italian dessert</div>
+			</div>
+			<div class="row">
+				<div class="col">Comes with turkey, salami, lettuce, tomatoes, onions and italian dressing</div>
+				<div class="col">This pizza comes loaded with pepperoni, mushrooms, and onions for the ultimate flavor combinations!</div>
+				<div class="col">Finish your meal with a sweet treat! Available in vanilla, chocolate or strawberry</div>
+			</div>
+			<div class="row">
+				<div class="col">$6.00</div>
+				<div class="col">$7.50</div>
+				<div class="col">$2.00</div>
+			</div>
+	</div>
+	<br />
+	<div class="container">	
+		<div class="col">Beverages</div>
+		<div class="row">
+			<div class="col">Root Beer</div>
+			<div class="col">$3.00</div>
+		</div>
+		<div class="row">
+			<div class="col">Bottled Water</div>
+			<div class="col">$1.25</div>
+		</div>
+		<div class="row">
+			<div class="col">Lemonade</div>
+			<div class="col">$1.00</div>
+		</div>
+		<div class="row">
+			<div class="col">Iced Tea</div>
+			<div class="col">$1.25</div>
+		</div>
+	</div>
+  </div>
+	<div id="Contact" class="tabcontent">
+	  <h3>Contact Us</h3>
+	  <div class="container">
+		  <p><div class="clear-float"></div>
+			<form name="contactForm" onsubmit="return submitForm()">
+				<div class="form-group">
+					<label for="name" class="required">Name:</label>
+					<input type="text" id="name" name="name" required placeholder="Enter your Name"><br/>
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="emailHelp" id="email" name="email" required placeholder="Enter email"><br />
+				</div>
+				<div class="form-group">
+					<label for="phone">Phone:</label>
+					<input type="tel" id="phone" name="phone" required placeholder="Enter your number"><br />
+				</div>
+				<div class="form-group">
+					<label for="interest" required>Reason for Inquiry:</label>
+					<select id="interest" name="interest">
+					<option value="catering" selected>Catering</option>
+					<option value="party">Private Party</option>
+					<option value="feedback">Feedback</option>
+					<option value="other">Other</option>
+					</select><br />
+				</div>
+				<div class="form-group">
+					<label for="info">Additional Information:</label>
+					<textarea id="info" name="info" rows="5" cols="40"></textarea><br />
+				</div>
+				<div class="form-group">
+					<label>Have you been to the restaurant?</label>
+					<input type="radio" id="choice1" name="question" value="no" checked>
+					<label for="choice1">No</label>
+					<input type="radio" id="choice2" name="question" value="yes">
+					<label for="choice2">Yes</label><br />
+				</div>
+				<div class="form-group">
+					<label>Best days to contact you:</label>
+					<input type="checkbox" id="monday" name="day" value="monday">
+					<label for="monday">M</label>
+					<input type="checkbox" id="tuesday" name="day" value="tuesday">
+					<label for="tuesday">T</label>
+					<input type="checkbox" id="wednesday" name="day" value="wednesday">
+					<label for="wednesday">W</label>
+					<input type="checkbox" id="thursday" name="day" value="thursday">
+					<label for="thursday">Th</label>
+					<input type="checkbox" id="friday" name="day" value="friday">
+					<label for="friday">F</label>
+					<br />
+				</div>
+			<input type="submit" value="submit">
+			</form></p>
+		</div>
+	</div>
+	<footer>
+	<p>88 Cool Street, Toad Town, Mushroom Kingdom, 54321</p>
+	<p>555-5867</p>
+	</footer>
+	<!--BootStrap jQuery, Popper and PlugIns-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+	crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+	integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+	crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+	crossorigin="anonymous"></script>
+	
+	<script>document.getElementById('luigiButton').click();</script>
+</body>
+</html>

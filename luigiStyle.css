@@ -1,0 +1,104 @@
+.tab {
+  overflow: hidden;
+  margin: 0 auto;
+  width: inherit;
+  display: inline-block;
+  text-align: center;
+}
+
+.tab button {
+  background-color: #d81101;
+  float: left;
+  border: thin solid #0d1f2d;
+  outline: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 14px 16px;
+  margin: 20px;
+  width: 150px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #fef9ff;
+  color: #d81101;
+  font-weight: bold
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+.clear-float {
+	clear:both;
+}
+body {
+	background-color: #ffdab3;
+	color:#000;
+}
+.tabcontent {
+	font-size: 125%
+}
+header, footer {
+	background-color: #d81101;
+	color: #fef9ff;
+	height: 200px;
+	text-align: center;
+	font-size: 110%;
+	padding: 30px 10px 20px 10px;
+}
+@font-face { 
+	font-family: 'titleFont'; 
+	src: url('title.ttf'); 
+	} 
+h1 {
+	font-family: 'titleFont';
+	font-size: 3em;
+	}
+.container {
+	text-align: center;
+}
+h3, h2, h1{
+	text-align: center;
+}
+.carousel-item {
+	text-align: center;
+	font-size: 150%;
+}
